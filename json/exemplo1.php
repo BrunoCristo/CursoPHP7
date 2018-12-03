@@ -1,0 +1,14 @@
+<?php
+$pessoas = array();
+
+array_push($pessoas, array(
+    'nome' => 'Bruno',
+    'idade' => 21,
+));
+
+array_push($pessoas, array(
+    'nome' => 'BruHe',
+    'idade' => 23,
+));
+
+echo json_encode($pessoas);
